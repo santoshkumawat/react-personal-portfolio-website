@@ -1,0 +1,52 @@
+{
+  "name": "santosh-portfolio",
+  "version": "0.1.0",
+  "homepage": "https://santoshkumawat.github.io",
+  "private": "false",
+  "license": "MIT",
+  "dependencies": {
+    "@carbon/icons-react": "^10.44.0",
+    "@carbon/themes": "^10.48.0",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "carbon-components": "^10.50.0",
+    "carbon-components-react": "^7.50.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "^5.0.0",
+    "sass": "^1.45.1",
+    "styled-components": "^5.3.3",
+    "web-vitals": "^2.1.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
