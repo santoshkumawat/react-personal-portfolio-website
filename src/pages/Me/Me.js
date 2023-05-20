@@ -23,10 +23,15 @@ const Me = ({ user }) => {
         <ul>
           {user.basics.profiles.map((profile, i) => (
             <ProfileLink key={profile.network}>
-              {i !== 0 && ' | '}
+              {/* {i !== 0 && ' | '}
               <a href={profile.url} target="_blank" rel="noreferrer noopener">
                 {profile.network}
-              </a>
+              </a> */}
+              {i !== 0 &&
+              <a href={profile.url} target="_blank" rel="noreferrer noopener">
+                {profile.network} 
+              </a>}
+              {' | '}
             </ProfileLink>
           ))}
         </ul>
