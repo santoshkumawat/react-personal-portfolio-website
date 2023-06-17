@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const HeaderContainer = styled.div`
@@ -39,4 +40,10 @@ export const ViewResumeLink = styled.a`
     fill: white;
     margin-left: 8px;
   }
+`;
+
+export const ProfileLink = styled.a`
+  text-decoration: none;
+  font-weight: 400;
+  font-size:1rem;
 `;
